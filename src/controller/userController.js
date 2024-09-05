@@ -5,6 +5,6 @@ export const getUsers = {
     path: "/users",
     requestProcessor: async (req, res) => {
         const users = await getUsersFromDB();
-        res.status(200).json(users);
-    }
-}
+
+
+

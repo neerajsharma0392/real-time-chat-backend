@@ -1,10 +1,10 @@
-import {getUsers} from './../database';
+import {getUsers as getUsersFromDB} from './../database';
 
-export const getUserController = {
+export const getUsers = {
     method: "get",
     path: "/users",
     requestProcessor: async (req, res) => {
-        const users = await getUsers();
-        res.status(200).json(users);
-    }
-}
+        const users = await getUsersFromDB();
+
+
+

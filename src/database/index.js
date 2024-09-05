@@ -12,3 +12,19 @@ export {
     createChat
 }
 from './createChat'
+
+
+export {
+    getUser
+}
+from './getUser';
+
+export{
+    getChats
+} from './getChats'
+
+export {
+    addMessage
+}
+from './addMessage'
+

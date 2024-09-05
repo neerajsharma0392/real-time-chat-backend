@@ -28,3 +28,8 @@ export {
 }
 from './addMessage'
 
+export {
+    getUserChats
+}
+from "./getUserChats";
+

@@ -1,11 +1,7 @@
 import {createChatController} from './chatController';
-import {getUsers} from './userController';
+import {getUsers,getUserChats} from './userController';
 
-export const routes = [createChatController, getUsers];
-
-import {getUserController} from './userController';
-
-export const routes = [createChatController, getUserController];
+export const routes = [createChatController, getUsers,getUserChats];
 
 
 export {protectRoute} from './protectRoute';
